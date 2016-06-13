@@ -6,7 +6,8 @@ SOURCES += main.cpp \
 #    ddview.cpp \
     ddquickview.cpp \
     youzan/youzanapi.cpp \
-    youzan/youzanobject.cpp
+    youzan/youzanobject.cpp \
+    drivermodel.cpp
 
 RESOURCES += qml.qrc \
                           youzan/qml.qrc \
@@ -19,7 +20,7 @@ MOC_DIR =./tmp/moc
 UI_DIR = ./tmp/ui
 OBJECTS_DIR = ./tmp/obj
 
-DEFINES += USE_YOUZAN
+DEFINES += USE_DRIVER
 
 # Default rules for deployment.
 include(deployment.pri)
@@ -28,4 +29,5 @@ HEADERS += \
 #    ddview.h \
     ddquickview.h \
     youzan/youzanapi.h \
-    youzan/youzanobject.h
+    youzan/youzanobject.h \
+    drivermodel.h

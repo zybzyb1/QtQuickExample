@@ -17,6 +17,10 @@ Item{
                 source: "images/mid.png"
                 anchors.fill: parent
             }
+            DriverListView{
+                id:listView
+                anchors.fill: parent
+            }
         }
         Rectangle {
             width: 250

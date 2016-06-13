@@ -15,5 +15,6 @@
         <file>DDCloseButton.qml</file>
         <file>DDAbstractView.qml</file>
         <file>Driver/DDDriverView.qml</file>
+        <file>DriverListView.qml</file>
     </qresource>
 </RCC>
